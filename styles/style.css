@@ -82,8 +82,8 @@ a{
 
 .form{
     position: relative;
-    left: 100px;
-    bottom: 50px;
+    text-align: center;
+    margin-top: -45px;
 }
 
 .cuadradoheader{
@@ -112,7 +112,8 @@ a{
 }
 
 .div-logos{
-    margin: 100px 110px 180px 70px;
+    position: relative;
+    top: 90px;
 }
 
 .div-logos ul{
@@ -129,6 +130,13 @@ a{
 .puntosblue{
     text-align: center;
     z-index: 3;
+    position: relative;
+    top: 153px;
+}
+
+.servicios{
+    position: relative;
+    top: 132px;
 }
 
 .servicios h2{
@@ -144,6 +152,11 @@ a{
     font-size: 18px;
     font-weight: 400;
     padding: 0px 0px 135px 0px;
+}
+
+.contenedor-celu{
+    position: relative;
+    top: 144px;
 }
 
 .menuimg{
@@ -163,11 +176,11 @@ a{
 }
 
 .menuimg h3{
-    padding: 20px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 .menuimg p{
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .img1{
@@ -205,11 +218,11 @@ a{
 }
 
 .menuimg2 h3{
-    padding: 20px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 .menuimg2 p{
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .img4{
@@ -245,7 +258,7 @@ a{
     background: url("../assets/pricing-bg.jpg");
     background-size: 1250px 350px;
     position: relative;
-    top: -260px;
+    top: -79px;
 }
 
 .espaciofoto{
@@ -268,7 +281,7 @@ a{
 
 .posicionprecios{
     position: relative;
-    bottom: 300px;
+    top: -158px;
 }
 
 .inblock h2{
@@ -404,7 +417,7 @@ span{
 
 .mover{
     position: relative;
-    bottom: 330px;
+    bottom: 0px;
 }
 
 .contacto{
