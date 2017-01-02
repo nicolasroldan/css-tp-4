@@ -93,7 +93,8 @@ a{
     padding: 25px 25px;
 }
 
-.ion-search{
+.boton-search{
+    margin-left: -5px;
 	background: #00abf0;
     color: #fff;
 	font-weight: 700;
@@ -119,6 +120,15 @@ a{
 .div-logos ul{
     display: block;
     text-align: center;
+}
+
+.icono{
+    transition: 1.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.icono:hover{
+    transform: scale(1.35);
 }
 
 .threedots{
@@ -272,16 +282,18 @@ a{
     text-align: center;
     padding: 53px 45px 62px 59px;
     margin: 1px -6px 100px 23px;
-    border: 1px solid #D4D4D4;
+    box-shadow: 0px 0px 5px #888888;
 }
 
 .inblock{
     display: inline-block;
 }
 
+
 .posicionprecios{
     position: relative;
-    top: -158px;
+    margin-top: -158px;
+    z-index: 100;
 }
 
 .inblock h2{
